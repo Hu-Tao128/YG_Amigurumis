@@ -1,0 +1,60 @@
+Equipo de Gestión Grupal
+______________________________
+
+
+Yuliana García Rivera | Autor No. 01 | yuli.speck@gmail.com
+	- CEO
+	- Directora de Elaboración de Producto
+	- Desarrollador Back-end
+	
+	CEO y encargada de diseño y elaboración de amigurumis, así como también elaboración de accesorios y ropa, con más de 9 años de experiencia en el crochet. Caracterizada por el buen uso de la imaginación y la creatividad.
+
+
+Emanuel Ahumada Flores | Autor No. 02 | emanuel.ahf2@gmail.com
+	- Director de Operaciones
+	- Branding Designer
+	- Desarrollador Front-end
+	
+	Encargado de diseño web y branding, con conocimientos en UI/UX, con más de 3 años de experiencia en el campo de Diseño Gráfico. Se caracteriza por su gran habilidad en el diseño. Cuenta con un gran carisma, seguridad, confianza y determinación como sus aptitudes negativas.
+
+
+Kathya Francisco Arias | Autor No. 03 | Kathyafrncs@gmail.com
+	- Marketing
+	- CopyWritting
+
+	Desarrolla un papel importante en la comercialización de los bienes de consumo. Su función como tercer autor principal, es buscar estrategias de Marketing para la difusión de la compañia. También dedica tiempo en analizar las tendencias de moda para ir actualizando el concepto que se tiene de los productos.
+
+
+Ángel Josué Alcántara Huerta | Autor No. 04 | alcantarahuerta128@gmail.com
+	- Desarrollador Back-end
+
+	Encargado de comprobar los datos de compra e información de los usuarios desde la base de datos. Su importancia se define por el buen funcionamiento de la página del lado administrativo siendo el principal codificador. También se encargado de agregar los nuevos productos, anuncios, entre otras a la página.
+
+
+
+
+Colaboradores Especiales
+______________________________
+
+
+Diana Valeria Bautista Cruz
+	- Desarrollador Front-End [Buscador]
+
+
+José Resendiz Soto
+	- Desarrollador Back-End [Teoría Conexión de Tablas BD]
+
+
+
+
+Colaboradores Especiales
+______________________________
+
+
+Martha Flores Atenco
+	- Asesor Técnico
+
+
+Deisy Janeth Domínguez Gómez
+	- Asesor Metodológico
+
