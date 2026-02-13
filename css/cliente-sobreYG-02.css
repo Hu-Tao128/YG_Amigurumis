@@ -1,0 +1,300 @@
+@import "global-fonts.css";
+
+.Color-pallete{
+    color:#A168C0;
+    color:#0078F6;
+    color:#D6DFFD;
+    color:#FFD4B8;
+    color:#FFFFFF;
+    color:#F8F8F8;
+    color:#EEEEEE;
+    color:#AAAAAA;
+    color:#4D4D4D;
+}  
+
+.contacto{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    .sobre-yg-head-box{
+        height: 25em;
+        width: 100%;
+        background-color: #EEEEEE;
+        background-image: url("../Imagenes/Sobre BG/sobre-bahia-group-head-title.jpg");
+        background-size: cover;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+        .c-h-title-bgd{
+            backdrop-filter: blur(0.5rem);
+            -webkit-backdrop-filter: blur(0.5rem);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .c-h-title{
+                font-family: ls_b;
+                font-size: 4rem;
+                color: #FFFFFF;
+                margin-bottom: 1rem;
+                text-shadow: 0px 0px 50px #4D4D4D;          
+            }
+
+    .sobre-yg-body-box{
+        width: 60em;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+        .s-b-b-title{
+            font-family: ls_sb;
+            font-size: 1.5rem;
+            color: #A168C0;
+            padding-bottom: 1.5rem;
+            border-bottom: solid #EEEEEE 1px;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            width: 100%;
+        }
+
+        .s-b-b-autores{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+            .foto-autor{
+                height: 15em;
+                width: 15em;
+                object-fit: cover;
+                object-position: top;
+                border-radius: 20px;
+                background-color: #EEEEEE;
+            }
+
+                .name-autor{
+                    font-family: ls_sb;
+                    font-size: 1.5rem;
+                    color: #4D4D4D;
+                    margin-top: 1rem;
+                    margin-left: 2rem;
+                }
+
+                .cargo-autor{
+                    font-family: ls_r;
+                    font-size: 1rem;
+                    color: #AAAAAA;
+                    margin-top: 1rem;
+                    margin-left: 2rem;
+                }
+
+                .descripcion-autor{
+                    font-family: ls_r;
+                    font-size: 1rem;
+                    color: #4D4D4D;
+                    padding-top: 1.25rem;
+                    padding-left: 2rem;
+                    width: 43em;
+                    overflow-wrap: break-word;
+                }
+
+    .agradecimientos-yg{
+        background-color: #EEEEEE;
+        width: 100%;
+        margin-bottom: 3em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+        .a-yg-box{
+            width: 60em;
+            height: auto;
+            padding-top: 3rem;
+            padding-bottom: 4rem;
+        }
+
+            .a-yg-subtitle{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                font-family: ls_b;
+                font-size: 1.5rem;
+                color: #A168C0;
+                overflow-wrap: break-word;
+                margin-top: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
+                .a-yg-thx{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    margin-left: 1.5em;  
+                    margin-right: 1.5em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    width: 10em;
+                }
+
+                    .a-yg-name{
+                        font-family: ls_sb;
+                        font-size: 1.25rem;
+                        color: #4D4D4D;
+                        overflow-wrap: break-word;
+                    }
+
+                    .a-yg-cargo{
+                        font-family: ls_r;
+                        font-size: 1rem;
+                        color: #4D4D4D;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                    }
+
+            .a-yg-asesores{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: center;
+            }
+
+            .a-yg-colabs{
+                padding-bottom: 1em;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: center;
+            }
+
+/*   Acerca de YG   */
+
+    .acerca-yg-head-box{
+        height: 35em;
+        width: 100%;
+        background-color: #EEEEEE;
+        background-image: url("../Imagenes/Sobre BG/sobre-bahia-group-head-title-2.jpg");
+        background-size: cover;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+        .c-h-title-bgd{
+            backdrop-filter: blur(0.5rem);
+            -webkit-backdrop-filter: blur(0.5rem);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .c-h-title{
+                font-family: ls_b;
+                font-size: 4rem;
+                color: #FFFFFF;
+                margin-bottom: 1rem;
+                text-shadow: 0px 0px 50px #4D4D4D;          
+            }
+
+    .acerca-yg-body-box{
+        width: 60em;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin-bottom: 2rem;
+    }
+
+        .a-yg-b-historia{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+            .a-yg-b-subtitle{
+                font-family: ls_sb;
+                font-size: 2rem;
+                color: #A168C0;
+                margin-bottom: 1.5rem;
+            }
+
+            .a-yg-b-text{
+                width: 35em;
+                font-family: ls_r;
+                font-size: 1rem;
+                color: #4D4D4D;
+                text-align: center;
+            }
+
+        .a-yg-b-somos{
+            margin-top: 4rem;
+            background-color: #EEEEEE;
+            padding-top: 3em;
+            padding-left: 3em;
+            padding-right: 3em;
+            padding-bottom: 4em;
+            border-radius: 25px;
+        }
+
+            .a-yg-b-s-box{
+                width: 27em;
+                height: 20em;
+                float: left;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+
+                .a-yg-b-s-title{
+                    font-family: ls_sb;
+                    font-size: 1.25rem;
+                    color: #4D4D4D;
+                }
+
+                .a-yg-b-s-text{
+                    font-family: ls_r;
+                    font-size: 1rem;
+                    color: #4D4D4D;
+                    margin-top: 1rem;
+                }
+
+                .a-yg-b-s-foto{
+                    object-fit: cover;
+                    height: 20em;
+                    width: 27em;
+                    background-color: #d3d3d3;
+                }

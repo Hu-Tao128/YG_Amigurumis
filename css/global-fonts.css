@@ -1,0 +1,23 @@
+/*		League Spartan		*/
+
+@font-face{
+	font-family:"ls_b";
+	src:url('fonts/LeagueSpartan-Bold.ttf');
+}
+
+@font-face{
+	font-family:"ls_r";
+	src:url('fonts/LeagueSpartan-Regular.ttf');
+}
+
+@font-face{
+	font-family:"ls_sb";
+	src:url('fonts/LeagueSpartan-SemiBold.ttf');
+}
+
+/*		Autography		*/
+
+@font-face{
+	font-family:"autography";
+	src:url('fonts/Autography.otf');
+}

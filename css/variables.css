@@ -1,0 +1,8 @@
+#navbar = Navagation bar
+    .nav-container = Navagation Container for Buttons
+        .navbar_logo = Navagation Logo
+            .navbar_1stbox = Navagation Bar 1st Box for actions buttons
+                .navbar_nav_box = Another Box for action buttons
+                    .action-btn = Action Buttons
+                        .hts-opt = Hidden To Shown Options
+                            .hts-action-btn = Hidden To Shown Action Buttons

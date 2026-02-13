@@ -1,0 +1,113 @@
+@import "global-fonts.css";
+
+.Color-pallete{
+    color:#A168C0;
+    color:#0078F6;
+    color:#D6DFFD;
+    color:#FFD4B8;
+    color:#FFFFFF;
+    color:#F8F8F8;
+    color:#EEEEEE;
+    color:#AAAAAA;
+    color:#4D4D4D;
+} 
+
+.foto-perfil{
+    width: 98%;
+    height: 50vh;
+    background: rgb(173,190,247);
+    background: linear-gradient(169deg, rgba(173,190,247,1) 31%, rgba(214,223,253,1) 61%, rgba(229,235,255,1) 85%); 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(214,223,253,0.5);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(214,223,253,0.5);
+    box-shadow: 0px 0px 30px 1px rgba(214,223,253,0.5);
+}
+
+    .f-p-usuario-box{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 2rem;
+    }
+
+        .f-p-usuario{
+            font-family: ls_sb;
+            color: #FFFFFF;
+            font-size: 1rem;
+        }
+
+    .f-p-foto-box{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .f-p-foto-img{
+            width: 16rem;
+            height: 16rem;
+            border-radius: 25rem;
+            background-color: #EEEEEE;
+            -webkit-box-shadow: 0px 0px 20px 4px rgba(161,104,192,0.3);
+            -moz-box-shadow: 0px 0px 20px 4px rgba(161,104,192,0.3);
+            box-shadow: 0px 0px 20px 4px rgba(161,104,192,0.3);
+            margin: 1.5rem;
+            object-fit: cover;
+            outline: solid #FFFFFF 0.5rem;
+            padding: 1px;
+        }
+
+        .f-p-foto-txt{
+            font-family: ls_sb;
+            color: #FFFFFF;
+            font-size: 2rem;
+            text-shadow: 0px 0px 10px rgba(161,104,192,0.3);
+        }
+
+    .f-p-moreActions-box{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 1.5rem 2rem;
+    }
+
+        .f-p-moreActions-btn{
+            border: none;
+            cursor: pointer;
+            font-family: ls_sb;
+            font-size: 1rem;
+            color: #FFFFFF;
+            background-color: transparent;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            transition: ease-in-out 50ms;
+        }
+
+            .f-p-moreActions-btn:active{
+                transform: scale(0.9);
+            }
+
+            .f-p-moreActions-txtmodal{
+                font-family: ls_sb;
+                font-size: 1rem;
+                color: #A168C0;
+                background-color: transparent;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+            }

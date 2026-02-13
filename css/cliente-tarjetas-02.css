@@ -1,0 +1,97 @@
+.Color-pallete{
+    color:#A168C0;
+    color:#0078F6;
+    color:#D6DFFD;
+    color:#FFD4B8;
+    color:#FFFFFF;
+    color:#F8F8F8;
+    color:#EEEEEE;
+    color:#AAAAAA;
+    color:#1A1A1A;
+}
+
+.tarjeta-box{
+    width: 60em;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+    .tarjeta{
+        float: left;
+        height: auto;
+        width: 20em;
+    }
+
+        .tarjeta-container{
+            height: 9em;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            padding: 1.5rem;
+            border-radius: 15px;
+            /* background-color: #EEEEEE; */
+            border: solid #EEEEEE 1px;
+            display: flex;
+            flex-direction: column;
+            align-items: space-between;
+            justify-content: space-between;
+            transition: 100ms ease-in-out;
+        }
+
+        .tarjeta-container:hover{
+            background-color: #EEEEEE;
+            border: solid #EEEEEE 1px;
+        }
+
+            .t-nombre{
+                font-family: ls_sb;
+                font-size: 1.25rem;
+                color: #4d4d4d;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+
+            .t-numero{
+                font-family: ls_sb;
+                font-size: 1.5rem;
+                color: #4d4d4d;
+            }
+
+            .t-cvc-venci{
+                font-family: ls_r;
+                font-size: 1rem;
+                color: #4d4d4d;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+
+            .delete-icon{
+                height: 1rem;
+                width: 1rem;
+            }
+
+    .add-tarjeta-box{
+        float: left;
+        width: em;
+        height: 10em;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        /* background-color: #0078F6; */
+        border-radius: 25px;
+        border: solid #EEEEEE 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .add-tarjeta-icon{
+            width: 5rem;
+            height: 5rem;
+            filter: invert(97%) sepia(93%) saturate(8%) hue-rotate(85deg) brightness(105%) contrast(87%);
+            /* filter: invert(71%) sepia(6%) saturate(0%) hue-rotate(263deg) brightness(94%) contrast(93%); */
+        }

@@ -1,0 +1,50 @@
+.loader{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+    .load {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 1.5rem auto 0;
+        border:solid 0.3rem #aaa;
+        border-radius: 50%;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        -webkit-transition: all 0.5s ease-in;
+        -webkit-animation-name: rotate; 
+        -webkit-animation-duration: 0.8s; 
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+            
+        transition: all 0.5s ease-in;
+        animation-name: rotate; 
+        animation-duration: 0.8s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+    }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to { 
+                transform: rotate(360deg);
+            }
+        }
+        
+
+        @-webkit-keyframes rotate {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+            to { 
+                -webkit-transform: rotate(360deg);
+            }
+        }
